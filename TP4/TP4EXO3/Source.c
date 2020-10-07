@@ -8,13 +8,13 @@ int main() {
 	printf("\n Entrer le prenom : ");
 	scanf_s("%s", prenom, (unsigned)_countof(prenom));
 	printf("\n H ou F : ");
-	sexe = _getch();
+	/*sexe = _getch();
 	if (sexe == 'h' || sexe == 'H') {
 		printf("\nMonsieur %s %s", prenom, nom);
 	}
 	else {
 		printf("\n Madame %s %s", prenom, nom);
-	};
-	//scanf_s("%c", &sexe);
+	};*/
+	scanf_s("%c", &sexe,1);
 	
 }
